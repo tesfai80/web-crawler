@@ -1,0 +1,15 @@
+{
+    "urls": [
+      "https://api.github.com/",
+      "https://jsonplaceholder.typicode.com/",
+      "https://realpython.github.io/fake-jobs/",
+      "https://www.webscraper.io/test-sites",
+      "https://toscrape.com/",
+      "https://www.scrapethissite.com/",
+      "https://crawler-test.com/",
+      "https://httpbin.org/",
+      "https://the-internet.herokuapp.com/",
+      "https://books.toscrape.com/",
+      "https://realpython.github.io/fake-jobs/"
+    ]
+  }

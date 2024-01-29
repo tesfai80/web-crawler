@@ -1,0 +1,72 @@
+/* Home.module.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.button:not(:disabled):hover {
+  background-color: #0056b3;
+}
+
+.loading {
+  color: #0066ff;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-height: 300px; /* Fixed height for scrolling */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-top: 20px;
+}
+
+.listItem {
+  background-color: #f7f7f7;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.listItem:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+}
